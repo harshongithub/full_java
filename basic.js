@@ -19,3 +19,5 @@ password variable which should not be happening according to global variable con
 */
 
 // always use const and let
+
+// data types in js
