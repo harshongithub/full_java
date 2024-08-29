@@ -20,4 +20,28 @@ password variable which should not be happening according to global variable con
 
 // always use const and let
 
-// data types in js
+/* 
+data types in js:
+    number -> 2^53
+    bigint 
+    "string"
+    bool -> true/false
+    null -> garbage value will be stored
+    undefined
+    symbol -> unique
+    object
+*/
+
+console.log(typeof "hi")
+console.log(typeof "null")
+console.log(typeof "undedfined")
+
+// type conversion
+let age = "20" //string
+console.log(Number(age)) //converted to number
+console.log(Boolean(age)) // will give true bacause age>=1 "bad practice"
+
+// "20" -> 20
+// "20abs" -> NAN
+// true -> NAN
+// null -> 0
