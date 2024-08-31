@@ -9,7 +9,7 @@
     console.log(id===another); //?
 
     
-//  Refrence -> of which the direct refrence can be alloted
+// Refrence -> of which the direct refrence can be alloted
 
     // Array, Objects, Function
     const cars = ["maruti","tata"]
@@ -23,3 +23,6 @@
     console.log(typeof(fn))
     // datatype of null object and array is object
     // datatype of function is function
+
+// Stack memory is used for all primitive datatype
+// Heap memory is used for all non-primitive datatypes
